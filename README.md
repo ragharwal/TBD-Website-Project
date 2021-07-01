@@ -2,4 +2,4 @@
 
 Name: Ashhar Ali\
 Year: 2nd year\
-LinkedIn: https://www.linkedin.com/in/ashharali/\
+LinkedIn: https://www.linkedin.com/in/ashharali/
