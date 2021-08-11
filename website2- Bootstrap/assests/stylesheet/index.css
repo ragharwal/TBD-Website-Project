@@ -1,0 +1,118 @@
+.circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: #ED8D8D;
+    color: rgb(27, 24, 24);
+    max-height: 50px;
+    z-index: 2;
+  }
+  
+  .how-it-works.row .col-2 {
+    align-self: stretch;
+  }
+  .how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #ED8D8D;
+    z-index: 1;
+  }
+  .how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+  }
+  .how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+  }
+  .how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+  }
+  
+  
+  .timeline div {
+    padding: 0;
+    height: 40px;
+  }
+  .timeline hr {
+    border-top: 3px solid #ED8D8D;
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  .timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .timeline .corner {
+    border: 3px solid #ED8D8D;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  .timeline .top-right {
+    left: 50%;
+    top: -50%;
+  }
+  .timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  .timeline .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  .timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+  
+
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+  body {
+      background: linear-gradient(0deg, rgb(0, 0, 0), 50%, #032446);
+      font-family: 'Rubik', sans-serif;
+      background: #121213;
+      height: 100 !important
+  }
+ 
+  .container-fluid {
+      overflow: hidden;
+      margin-top: 250px;
+      background: #c44646;
+      color: #181a1b !important;
+      margin-bottom: 0;
+      padding-bottom: 0
+  }
+ 
+  small {
+      font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+  }
+ 
+  .bold-text {
+      color: #0c0d0e !important
+  }
+ 
+  .mt-55 {
+      margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+  }
+ 
+  h3 {
+      font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+  }
+ 
+  .social {
+      font-size: 21px !important
+  }
+ 
+  .rights {
+      font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+  }
